@@ -21,9 +21,11 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background-color: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
     color: #333;
     line-height: 1.6;
     font-size: 16px;
     overflow-x: hidden;
+  
 }
